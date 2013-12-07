@@ -1,6 +1,7 @@
 # DOCKER-VERSION 0.4.0
 
-from	ubuntu:12.04
+#from	ubuntu:12.04
+from racker/precise-with-updates:latest
 run	echo 'deb http://us.archive.ubuntu.com/ubuntu/ precise universe' >> /etc/apt/sources.list
 run	apt-get -y update
 
